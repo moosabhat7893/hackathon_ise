@@ -85,8 +85,13 @@ Canva (for presentation assets)
 
 ! [https://github.com/moosabhat7893/hackathon_ise/blob/main/IMG-20251128-WA0037.jpg] 
 
+! [https://github.com/moosabhat7893/hackathon_ise/blob/main/IMG-20251128-WA0036.jpg]
 
-
+! []
+! []
+! []
+! []
+! []
 # 📘 Additional Explanation
 🔹 Handling Non-X-ray Images
 
