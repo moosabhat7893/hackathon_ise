@@ -24,7 +24,7 @@ There is a need for an automated tool that can help with initial screening, aidi
 The solution is implemented using a Convolutional Neural Network (CNN) trained on a standard pneumonia dataset.
 The pipeline includes:
 
-🔹 1. Image Input
+🔹 1. Image Input:-
 
 Users upload a chest X-ray through the Streamlit UI.
 
