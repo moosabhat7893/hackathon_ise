@@ -17,7 +17,8 @@ Misdiagnosis in early stages
 Increased burden on healthcare workers
 
 There is a need for an automated tool that can help with initial screening, aiding medical professionals and improving diagnosis efficiency.
-
+# DATA SET USED:-
+![https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia]
 # 🧠 Approach and Solution
 
 The solution is implemented using a Convolutional Neural Network (CNN) trained on a standard pneumonia dataset.
