@@ -84,15 +84,21 @@ Canva (for presentation assets)
 
 #  🖼 Screenshots of the Product
 
-! [https://github.com/moosabhat7893/hackathon_ise/blob/main/IMG-20251128-WA0037.jpg] 
+## 📸 Screenshots
 
-! [https://github.com/moosabhat7893/hackathon_ise/blob/main/IMG-20251128-WA0036.jpg]
+![Screenshot 1](screenshots/IMG-20251128-WA0037.jpg)
 
-! [https://github.com/moosabhat7893/hackathon_ise/blob/main/IMG-20251128-WA0035.jpg]
-! [https://github.com/moosabhat7893/hackathon_ise/blob/main/IMG-20251128-WA0034.jpg]
-! [https://github.com/moosabhat7893/hackathon_ise/blob/main/IMG-20251128-WA0033.jpg]
-! [https://github.com/moosabhat7893/hackathon_ise/blob/main/IMG-20251128-WA0032.jpg]
-! [https://github.com/moosabhat7893/hackathon_ise/blob/main/IMG-20251128-WA0031.jpg]
+![Screenshot 2](screenshots/IMG-20251128-WA0036.jpg)
+
+![Screenshot 3](screenshots/IMG-20251128-WA0035.jpg)
+
+![Screenshot 4](screenshots/IMG-20251128-WA0034.jpg)
+
+![Screenshot 5](screenshots/IMG-20251128-WA0033.jpg)
+
+![Screenshot 6](screenshots/IMG-20251128-WA0032.jpg)
+
+![Screenshot 7](screenshots/IMG-20251128-WA0031.jpg)
 # 📘 Additional Explanation
 🔹 Handling Non-X-ray Images
 
