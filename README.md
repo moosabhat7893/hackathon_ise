@@ -1,12 +1,15 @@
-🩺 Pneumonia Detection System – README
-# 📌 Overview of the Project
+# Pneumonia Detection from Chest X-ray Images
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-WebApp-red)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-This project is a machine learning–based Pneumonia detection system that analyzes chest X-ray images and predicts whether the patient is Normal or has Pneumonia.
-The system features a Streamlit web interface that allows users to upload X-ray images, view predictions, and understand confidence levels with an intuitive UI.
+Deep Learning | TensorFlow | CNN | Streamlit | Medical Image Classification
+# Overview of the Project
 
-The goal is to provide a simple, fast, and supportive screening tool, especially useful in environments with limited access to expert radiologists.
+This project presents a deep learning–based system for detecting pneumonia from chest X-ray images using a Convolutional Neural Network (CNN). A Streamlit web application allows users to upload X-ray images and receive predictions with confidence scores through an intuitive interface. The system is intended as an educational and decision-support tool rather than a replacement for professional medical diagnosis
 
-# ❗ Problem Statement
+# Problem Statement
 
 Detecting pneumonia early from chest X-rays requires specialized radiological expertise, and misinterpretation can lead to:
 
@@ -17,9 +20,17 @@ Misdiagnosis in early stages
 Increased burden on healthcare workers
 
 There is a need for an automated tool that can help with initial screening, aiding medical professionals and improving diagnosis efficiency.
-# DATA SET USED:-
-![https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia]
-# 🧠 Approach and Solution
+## Dataset
+
+This project uses the **Chest X-Ray Images (Pneumonia)** dataset available on Kaggle.
+
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+
+The dataset contains chest X-ray images classified into:
+
+- Normal
+- Pneumonia
+# Approach and Solution
 
 The solution is implemented using a Convolutional Neural Network (CNN) trained on a standard pneumonia dataset.
 The pipeline includes:
@@ -60,31 +71,30 @@ Medical guidance based on severity
 
 A preprocessing rule filters out non–X-ray images by checking if the uploaded image appears grayscale.
 
-# 🛠 Technologies Used
+## Tech Stack
 
-Languages & Libraries
+### Languages
+- Python
 
-Python
+### Deep Learning
+- TensorFlow
+- Keras
 
-TensorFlow / Keras
+### Libraries
+- NumPy
+- Pillow
+- OpenCV
+- Matplotlib
 
-NumPy
+### Web Framework
+- Streamlit
 
-PIL (Pillow)
+### Development
+- Jupyter Notebook
 
-Streamlit
+#  Screenshots of the Product
 
-Tools & Platforms
-
-Jupyter Notebook (for model development)
-
-Streamlit Cloud / Local Hosting
-
-Canva (for presentation assets)
-
-#  🖼 Screenshots of the Product
-
-## 📸 Screenshots
+## Screenshots
 
 ![Screenshot 1](screenshots/IMG-20251128-WA0037.jpg)
 
@@ -99,7 +109,19 @@ Canva (for presentation assets)
 ![Screenshot 6](screenshots/IMG-20251128-WA0032.jpg)
 
 ![Screenshot 7](screenshots/IMG-20251128-WA0031.jpg)
-# 📘 Additional Explanation
+## Results
+
+The CNN successfully classifies chest X-ray images into:
+
+- Normal
+- Pneumonia
+
+The application displays:
+
+- Prediction label
+- Confidence score
+- Medical guidance
+# Additional Explanation
 🔹 Handling Non-X-ray Images
 
 A simple grayscale-detection function ensures that the system rejects photos that are not chest X-rays (e.g., dog photos, colorful images).
